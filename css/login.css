@@ -1,0 +1,95 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+
+div#center {
+	position:relative;
+	width:1024px;
+	height:auto;
+	left:50%;
+	margin-left:-512px;
+}
+
+img#login-logo {
+	position:relative;
+	left:44px;
+	top:25px;
+	width:140px;
+}
+
+img#login-line {
+	position:relative;
+	width:1024px;
+	top:40px;
+}
+
+div#left {
+	position:relative;
+	top:130px;
+	width:50%;
+	height:auto;
+}
+
+img#login-character {
+	position:relative;
+	left:25px;
+	width:400px;
+}
+
+img#login-box {
+	position:relative;
+	left:175px;
+	top:40px;
+	width:250px;
+}
+
+div#right {
+	border:1px solid black;
+	width:500px;
+	height:330px;
+	position:relative;
+	left:550px;
+	top:-150px;
+}
+
+#right p {
+	position:relative;
+	top:20px;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	margin:10px 20px 10px 20px;
+}
+
+#right input[name="login-account"] {
+	width:400px;
+	height:30px;
+	position:relative;
+	top:20px;
+	left:20px;
+}
+
+#right input[name="login-password"] {
+	width:400px;
+	height:30px;
+	position:relative;
+	top:20px;
+	left:20px;
+	
+}
+
+#right input[name="IdentifyingCode"] {
+	width:200px;
+	height:30px;
+	position:relative;
+	top:20px;
+	left:20px;
+}
+
+#login-signin {
+	position:relative;
+	top:30px;
+	left:10px;
+}
